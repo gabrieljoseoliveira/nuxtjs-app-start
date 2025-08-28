@@ -1,13 +1,13 @@
 {
 	"scripts": {
-		"npm:setup": "npm install && npm run nuxt:prepare",
-		"nuxt:dev": "nuxt dev",
-		"nuxt:build": "nuxt build",
-		"nuxt:preview": "nuxt preview",
-		"nuxt:prepare": "nuxt prepare",
-		"nuxt:generate": "nuxt generate",
-		"eslint:lint": "eslint . --fix",
-		"prettier:format": "prettier --write \"**/*.*\""
+		"setup": "npm install && npm run nuxt:prepare",
+		"dev": "nuxt dev",
+		"build": "nuxt build",
+		"preview": "nuxt preview",
+		"prepare": "nuxt prepare",
+		"generate": "nuxt generate",
+		"lint": "eslint . --fix",
+		"format": "prettier --write \"**/*.*\""
 	},
 	"dependencies": {
 		"@nuxt/content": "latest",
