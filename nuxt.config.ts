@@ -60,5 +60,13 @@ export default defineNuxtConfig({
 						);
 					})()),
 		},
+    preview: {
+      api: 'https://api.nuxt.studio',
+      gitInfo: {
+        name: 'nuxtjs-app-start',
+        owner: 'gabrieljoseoliveira',
+        url: 'https://github.com/gabrieljoseoliveira/nuxtjs-app-start'
+      }
+    }
 	},
 });
